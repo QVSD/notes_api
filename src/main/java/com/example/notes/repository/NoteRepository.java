@@ -1,6 +1,6 @@
-package repository;
+package com.example.notes.repository;
 
-import model.Note;
+import com.example.notes.model.Note;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface NoteRepository extends JpaRepository<Note, Long> {}

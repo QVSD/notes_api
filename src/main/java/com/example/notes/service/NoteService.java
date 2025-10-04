@@ -1,9 +1,9 @@
-package service;
+package com.example.notes.service;
 
-import exception.NoteNotFoundException;
-import model.Note;
+import com.example.notes.exception.NoteNotFoundException;
+import com.example.notes.model.Note;
 import org.springframework.stereotype.Service;
-import repository.NoteRepository;
+import com.example.notes.repository.NoteRepository;
 
 import java.util.List;
 
